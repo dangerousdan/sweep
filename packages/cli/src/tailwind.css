@@ -1,0 +1,12 @@
+@import 'tailwindcss';
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  user-select: none;
+}
+
+@theme {
+  --font-sans: 'Noto Sans', serif;
+}
