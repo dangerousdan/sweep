@@ -6,10 +6,10 @@ It is available at https://sweep.dd.sbs
 
 ## Setup
 
-Install deps - `pnpm i`
-Start dev server on port 3000 - `pnpm dev` (note: requires redis)
-Build - `pnpm build`
-Run server benchmarks -`pnpm bench`
+- Install deps - `pnpm i`
+- Start dev server on port 3000 - `pnpm dev` (note: requires redis)
+- Build - `pnpm build`
+- Run server benchmarks -`pnpm bench`
 
 ## Server requests
 
@@ -29,6 +29,8 @@ In the interest of performance, it's best to calculate this in a single request,
 If there is a mine or adjacent squares, we return a `number`. If there are multiple squares, we return a `Record<number, number>` - the two numbers in the record representing the square and the adjacent mines.
 
 This is so that the server returns minimal data. The union of types is handled by the client.
+
+Also, similarly to the original, the user can right click to flag a square. Flagged squares can't be clicked.
 
 ## Performance
 
