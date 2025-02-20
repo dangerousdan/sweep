@@ -11,7 +11,7 @@ type SetupGameProps = {
 
 export default function SetupGame(props: SetupGameProps) {
   return (
-    <div className="bg-gray-100 p-8 rounded flex flex-col gap-4 items-center w-128">
+    <div className="bg-gray-100 p-8 rounded flex flex-col gap-4 items-center w-80 sm:w-128">
       <input
         className="w-full p-2 mb-2 border border-gray-300 rounded bg-white"
         value={props.name}

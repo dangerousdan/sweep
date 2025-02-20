@@ -10,16 +10,16 @@ export default function App() {
 
   return (
     <div className="p-8 flex flex-col gap-8 items-center justify-stretch">
-      <div className="flex items-center relative w-full">
+      <div className="flex justify-center relative w-full">
         {state !== 'setup' && (
           <Button
-            className="absolute left-0 w-24!"
+            className="absolute top-0 -left-4 sm:left-0 w-12! sm:w-16! text-sm p-1!"
             onClick={() => setState('setup')}
             text="Back"
           />
         )}
 
-        <h1 className="text-2xl text-center w-full">Minesweeper</h1>
+        <h1 className="text-xl sm:text-2xl text-center w-full">Minesweeper</h1>
       </div>
 
       {state == 'setup' && (
