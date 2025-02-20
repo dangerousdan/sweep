@@ -56,4 +56,4 @@ There are loads of things to be improved.
 - tailwind is fast, but quickly gets ugly and bloats the html. Any modular CSS tool will be better.
 - a shared library would be beneficial.
 - things in the wrong place. server functions expect a width & height, whereas the client uses preset easy, medium, hard modes
-- poor naming and general missed bits - I've turned this around pretty quickly, I took time to get types working nicely, but there's obvious omissions. eg. turborepo, prettier, still using the default tsconfig / eslint, more tests, ts-paths, error handling, a client router etc.
+- poor naming and general missed bits - I've turned this around pretty quickly, I took time to get types working nicely, but there's obvious omissions. eg. proper input sanitisation, turborepo, prettier, still using the default tsconfig / eslint, more tests, ts-paths, error handling, a client router etc.
